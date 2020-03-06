@@ -19,7 +19,6 @@ body {
 
 .float {
   float: left;
-  padding: 0 16px;
 }
 
 .float-dx {
@@ -360,7 +359,7 @@ body {
 }
 
 #helbiz-family .bg-family .text-family li a:first-child:hover {
-  color: red;
+  color: #ce9a9a;
 }
 
 /* footer */
@@ -384,7 +383,7 @@ body {
   font-size: 16px;
 }
 
-
+/* footer-link */
 #footer .footer-link img {
   vertical-align: middle;
 }
@@ -425,10 +424,32 @@ body {
 #footer .footer-social li a {
   text-decoration: none;
   color: #fff;
-  font-size: 20px;
+  font-size: 23px;
   padding-right: 20px;
 }
 
 #footer .footer-social li a:hover {
-  color: red;
+  color: #ce9a9a;
+}
+
+#footer .footer-social a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 12px;
+}
+ /* footer-app */
+
+.footer-app {
+  width: 1070px;
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.footer-app img {
+  margin-top: 20px;
+  border: 1px solid #fff;
+  border-radius: 8px;
+  margin-right: 20px;
+  width: 120px;
 }
