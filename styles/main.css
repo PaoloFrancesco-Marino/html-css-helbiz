@@ -1,0 +1,197 @@
+/* general styles  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* utilities */
+.container {
+  width: 1350px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.float {
+  float: left;
+  padding: 0 16px;
+}
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.w-30 {
+  width: 30%;
+}
+
+.w-33 {
+  width: calc(100% / 3);
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.w-70 {
+  width: 70%;
+}
+
+.relative {
+  position: relative;
+}
+
+.position-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* header */
+.img-logo {
+  margin-top: 5px;
+}
+
+.navbar {
+  width: 1070px;
+  max-width: 100%;
+  margin: 0 auto;
+  line-height: 80px;
+}
+
+.menu-nav {
+  padding: 0;
+  text-align: right;
+  font-size: 80%;
+}
+
+.menu-nav li:nth-last-child(2) a {
+  border-right: 1px solid #000;
+  border-left: 1px solid #000;
+}
+
+.menu-nav li {
+  display: inline-block;
+  list-style: none;
+}
+
+.menu-nav li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 0 10px;
+  color: #000;
+}
+
+/* jumbotrone */
+
+#jumbotron {
+  height: 550px;
+  background-image: url(../img/hero-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-align: center;
+}
+
+#jumbotron h1 {
+  font-size: 48px;
+  font-weight: 600;
+}
+
+#jumbotron h3 {
+  font-size: 16px;
+  font-weight: 400;
+  padding: 25px 0 15px;
+}
+
+/* prodotti */
+#products {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#products .box {
+  background: #fafafa;
+  text-align: center;
+  padding: 75px 75px 35px;
+}
+
+#products .box img {
+  max-width: 100%;
+  width: 230px;
+  margin-top: 20px;
+}
+
+#products .box a::after {
+  display: inline-block;
+  content: '\003e';
+  margin-left: 10px;
+}
+
+#products .box .cta {
+  display: block;
+  text-decoration: none;
+  color: blue;
+  font-size: 18px;
+}
+
+#products .box h2,
+#products .box h4 {
+  font-weight: 400;
+}
+
+#products .box h2 {
+  font-size: 38px;
+}
+
+#products .box h4 {
+  font-size: 24px;
+  margin: 20px 0 15px;
+}
+
+/* how wokrs */
+.how-works-bg {
+  height: 400px;
+  background-image: url(../img/helbiz-banner.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#how-works img {
+  max-width: 100%;
+}
+
+.contents {
+  padding-bottom: 60px;
+}
+
+#how-works .col-sx,
+#how-works .col-dx {
+  padding-top: 100px;
+}
+
+#how-works .col-sx {
+  text-align: right;
+}
+
+#how-works .col-sx h3 {
+  display: inline-block;
+  font-weight: 600;
+  font-size: 30px;
+  width: 230px;
+  text-align: left;
+}
+
+#how-works .img-phone {
+  position: absolute;
+  bottom: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 380px;
+}
