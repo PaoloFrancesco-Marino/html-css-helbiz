@@ -64,6 +64,15 @@ body {
 }
 
 /* header */
+#main-header {
+  position: fixed;
+  width: 100%;
+  max-width: 100%;
+  background: #fff;
+  top: 0;
+  z-index: 1;
+}
+
 .img-logo {
   margin-top: 5px;
 }
@@ -98,6 +107,10 @@ body {
   color: #000;
 }
 
+.menu-nav li a:hover {
+  color: #ce9a9a;
+}
+
 /* jumbotrone */
 
 #jumbotron {
@@ -107,6 +120,7 @@ body {
   background-position: center;
   color: #fff;
   text-align: center;
+  margin-top: 80px;
 }
 
 #jumbotron h1 {
