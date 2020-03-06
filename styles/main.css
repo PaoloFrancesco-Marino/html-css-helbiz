@@ -20,6 +20,12 @@ body {
   float: left;
   padding: 0 16px;
 }
+
+.float-dx {
+  float: right;
+  padding: 0 16px;
+}
+
 .clearfix::after {
   content: '';
   display: table;
@@ -137,7 +143,7 @@ body {
 #products .box .cta {
   display: block;
   text-decoration: none;
-  color: blue;
+  color: #0070c8;
   font-size: 18px;
 }
 
@@ -188,10 +194,106 @@ body {
   text-align: left;
 }
 
+#how-works .col-dx h4 {
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+#how-works .col-dx h5 {
+  font-weight: 400;
+  font-size: 16px;
+}
+
 #how-works .img-phone {
   position: absolute;
   bottom: -50px;
   left: 50%;
   transform: translateX(-50%);
   width: 380px;
+}
+
+/* smart mobility */
+#smart-mobility {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#smart-mobility .smart-mobility-bg {
+  background-image: url(../img/scooter-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  margin-bottom: 50px;
+}
+
+#smart-mobility .smart-mobility-bg .text {
+  color: #fff;
+  text-align: center;
+  width: 60%;
+  margin: auto;
+  padding-top: 20px;
+}
+
+#smart-mobility h2 {
+  font-size: 48px;
+  font-weight: 600;
+}
+
+#smart-mobility h4 {
+  font-weight: 600;
+  font-size: 20px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+#smart-mobility a {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  margin-left: 10px;
+}
+
+#smart-mobility a::after {
+  display: inline-block;
+  content: '\003e';
+  margin-left: 10px;
+}
+
+/* 2 columns smart-mobility */
+#smart-mobility .bg-sx {
+  background: linear-gradient(#41566a, #252f38);
+  text-align: center;
+  padding-top: 40px;
+  color: #fff;
+}
+
+#smart-mobility .col-sx,
+#smart-mobility .col-dx  {
+  height: 500px;
+  overflow: hidden;
+}
+
+#smart-mobility .col-sx img {
+  position: absolute;
+  max-width: 100%;
+  left: 0;
+}
+
+#smart-mobility .bg-dx {
+  background-image: url(../img/cities.jpg);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding-top: 40px;
+  color: #fff;
+}
+
+#smart-mobility .container .float {
+  padding: 0 16px 0 0;
+}
+
+#smart-mobility .container .float:last-child {
+  padding: 0 0 0 16px;
 }
