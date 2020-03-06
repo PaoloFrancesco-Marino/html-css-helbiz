@@ -297,3 +297,57 @@ body {
 #smart-mobility .container .float:last-child {
   padding: 0 0 0 16px;
 }
+
+/* helbiz-family */
+#helbiz-family {
+  height: 400px;
+  background-image: url(../img/social-banner.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#helbiz-family .bg-family {
+  background: #fff;
+  height: 200px;
+  width: 450px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#helbiz-family .bg-family .text-family {
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#helbiz-family .bg-family h2 {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+#helbiz-family .bg-family h2::before {
+  display: inline-block;
+  content: '\0023';
+}
+
+#helbiz-family .bg-family .text-family ul {
+  text-align: center;
+}
+
+#helbiz-family .bg-family .text-family li {
+  display: inline-block;
+  padding: 0;
+  list-style: none;
+}
+
+#helbiz-family .bg-family .text-family li a {
+  color: #000;
+  text-decoration: none;
+  font-size: 32px;
+  padding: 0 10px;
+}
