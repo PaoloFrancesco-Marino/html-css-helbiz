@@ -146,6 +146,14 @@ body {
   padding: 75px 75px 35px;
 }
 
+#products .box-sx {
+  margin-right: 16px;
+}
+
+#products .box-dx {
+  margin-left: 16px;
+}
+
 #products .box img {
   max-width: 100%;
   width: 230px;
@@ -466,4 +474,106 @@ body {
   border-radius: 8px;
   margin-right: 20px;
   width: 120px;
+}
+
+
+
+/* Responsive */
+/* large to mid device */
+@media all and (min-width: 769px) and (max-width: 1200px) {
+  .navbar {
+    width: 90%;
+  }
+
+  .footer-link {
+    width: 80%;
+    text-align: center;
+  }
+
+  .footer-mid {
+    width: 100%;
+    text-align: center;
+    line-height: 50px;
+  }
+
+  #how-works .col-dx {
+  padding-left: 40px;
+}
+
+  #footer .border {
+    width: 80%;
+  }
+}
+
+/* mid to small */
+
+@media all and (max-width: 768px) {
+  .navbar {
+    width: 90%;
+  }
+  .menu-nav{
+    display: none;
+  }
+
+  .w-50 {
+    width: 100%;
+  }
+
+  .img-phone {
+    display: none;
+  }
+
+  .w-33 {
+    width: 50%;
+  }
+
+  #how-works .col-sx,
+  #how-works .col-dx {
+    text-align: center;
+  }
+
+  #products .box-sx {
+    padding: 20px;
+    margin: 0;
+  }
+
+  #products .box-dx {
+    padding: 20px;
+    margin-top: 50px;
+    margin: 50px 0 0 0;
+  }
+
+  #smart-mobility .container .float {
+    padding: 0;
+  }
+
+  #smart-mobility .container .float:last-child {
+    padding: 0;
+    margin-top: 50px;
+  }
+
+  .footer-mid {
+    width: 100%;
+    text-align: center;
+    line-height: 45px;
+  }
+
+  .footer-link {
+    padding-bottom: 45px;
+  }
+
+  #footer .border {
+    width: 80%;
+  }
+
+  .xs-full {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .xs-center {
+    width: calc(100% / 3);
+    text-align: center;
+  }
 }
