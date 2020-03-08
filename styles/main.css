@@ -73,6 +73,12 @@ body {
   z-index: 1;
 }
 
+.menu-light {
+  text-align: right;
+  width: 100%;
+  display: none;
+}
+
 .img-logo {
   margin-top: 5px;
 }
@@ -515,6 +521,18 @@ body {
     display: none;
   }
 
+  .menu-light {
+    display: block;
+  }
+
+  .menu-light a {
+    color: #000;
+  }
+
+  .menu-light a:hover {
+    color: #ce9a9a;
+  }
+
   .w-50 {
     width: 100%;
   }
@@ -525,6 +543,11 @@ body {
 
   .w-33 {
     width: 50%;
+  }
+
+  .how-works-bg {
+    width: 100%;
+    background-position: left;
   }
 
   #how-works .col-sx,
@@ -560,6 +583,10 @@ body {
 
   .footer-link {
     padding-bottom: 45px;
+  }
+
+  #footer {
+    padding: 50px 0;
   }
 
   #footer .border {
